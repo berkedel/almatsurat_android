@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_shughra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/lbl_almatsurat_shughra"
+            bootstrapbutton:bb_roundedCorners="true"
+            bootstrapbutton:bb_size="default"
+            bootstrapbutton:bb_type="primary" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btn_kubra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/lbl_almatsurat_kubra"
+            bootstrapbutton:bb_roundedCorners="true"
+            bootstrapbutton:bb_size="default"
+            bootstrapbutton:bb_type="primary" />
+    </LinearLayout>
+</RelativeLayout>

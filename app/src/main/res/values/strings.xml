@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Al-Ma\'tsurat</string>
+    <string name="lbl_almatsurat_shughra">Al-Ma\'tsurat Shughra</string>
+    <string name="lbl_almatsurat_kubra">Al-Ma\'tsurat Kubra</string>
+</resources>
