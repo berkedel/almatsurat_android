@@ -15,7 +15,7 @@
             android:lineSpacingExtra="12sp"
             android:lineSpacingMultiplier="1.2"
             android:padding="10dp"
-            android:text="@string/istiadzah"
+            android:text="@string/basmallah"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <com.github.berkedel.almatsurat_android.ui.ArabicTextView
@@ -24,8 +24,16 @@
             android:lineSpacingExtra="12sp"
             android:lineSpacingMultiplier="1.2"
             android:padding="10dp"
-            android:text="@string/alfatihah1to7"
+            android:text="@string/alikhlas1to4"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
+        <com.github.berkedel.almatsurat_android.ui.ArabicTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="12sp"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="10dp"
+            android:text="@string/tsalatsa"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 </ScrollView>
