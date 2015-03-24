@@ -18,7 +18,12 @@ import com.github.berkedel.almatsurat_android.content.AlIkhlas1to4;
 import com.github.berkedel.almatsurat_android.content.AnNas1to6;
 import com.github.berkedel.almatsurat_android.content.DoaPagi1;
 import com.github.berkedel.almatsurat_android.content.DoaPagi2;
+import com.github.berkedel.almatsurat_android.content.DoaPagi3;
+import com.github.berkedel.almatsurat_android.content.DoaPagi4;
 import com.github.berkedel.almatsurat_android.content.DoaSore1;
+import com.github.berkedel.almatsurat_android.content.DoaSore2;
+import com.github.berkedel.almatsurat_android.content.DoaSore3;
+import com.github.berkedel.almatsurat_android.content.DoaSore4;
 import com.github.berkedel.almatsurat_android.ui.FragmentNavigationDrawer;
 
 /**
@@ -52,6 +57,11 @@ public class ShughraActivity extends ActionBarActivity {
         dlDrawer.addNavItem("Doa Pagi 1", R.mipmap.ic_08, "Doa Pagi 1", DoaPagi1.class);
         dlDrawer.addNavItem("Doa Sore 1", R.mipmap.ic_09, "Doa Sore 1", DoaSore1.class);
         dlDrawer.addNavItem("Doa Pagi 2", R.mipmap.ic_10, "Doa Pagi 2", DoaPagi2.class);
+        dlDrawer.addNavItem("Doa Sore 2", R.mipmap.ic_11, "Doa Sore 2", DoaSore2.class);
+        dlDrawer.addNavItem("Doa Pagi 3", R.mipmap.ic_12, "Doa Pagi 3", DoaPagi3.class);
+        dlDrawer.addNavItem("Doa Sore 3", R.mipmap.ic_13, "Doa Sore 3", DoaSore3.class);
+        dlDrawer.addNavItem("Doa Pagi 4", R.mipmap.ic_14, "Doa Pagi 4", DoaPagi4.class);
+        dlDrawer.addNavItem("Doa Sore 4", R.mipmap.ic_15, "Doa Sore 4", DoaSore4.class);
         // Select default
         if (savedInstanceState == null) {
             dlDrawer.selectDrawerItem(0);
